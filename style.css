@@ -235,7 +235,7 @@
 }
 
 .div26{
-    background-color: aquamarine;
+    background-color: rgba(157, 201, 200, 1);
 
     margin-top: 600px;
     padding-left: 100px;
@@ -262,7 +262,7 @@
 .div30{
     background-color: black;
     margin-top: 1100px;
-    width: 99%;
+    width: 97.1%;
     position: absolute;
     height: 400px;
 
@@ -320,7 +320,8 @@
 }
 
 .h9{
-    display: inline-block;
+  display: inline-block;
+  
 }
 
 
@@ -533,5 +534,25 @@
 
     .body{
         overflow-x: hidden;
+    }
+
+    .div21{
+        width: 320px;
+        margin: auto;
+        height: 300px;
+
+        
+    }
+
+    .imgg{
+        width: 319px;
+        padding-top: 1px;
+        padding-left: 0.5px;
+    }
+
+    .div23{
+        display: flex;
+        flex-direction: column; 
+        gap: 50px;
     }
 }
